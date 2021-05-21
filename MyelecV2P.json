@@ -67,6 +67,24 @@
 				"type": "runjs",
 				"target": "https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.js"
 			}
+		},
+		{
+		  "name": "京东汽车兑换",
+		  "type": "cron",
+		  "time": "0 0 * * *",
+		  "job": {
+			"type": "runjs",
+			"target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_car_exchange.js"
+		  }
+		},
+		{
+		  "name": "京东东东超市兑换奖品",
+		  "type": "cron",
+		  "time": "0 0 0 * * *",
+		  "job": {
+			"type": "runjs",
+			"target": "https://jdsharedresourcescdn.azureedge.net/jdresource/jd_blueCoin.js"
+		  }
 		}
 	]
 }
