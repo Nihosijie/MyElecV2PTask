@@ -67,6 +67,24 @@
 				"type": "runjs",
 				"target": "https://ghproxy.com/https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js"
 			}
+		},
+		{
+			"name": "中青看点极速版",
+			"type": "cron",
+			"time": "0 0/14 5-14 * * *",
+			"job": {
+				"type": "runjs",
+				"target": "https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js"
+			}
+		},
+		{
+			"name": "中青看点极速版自动阅读",
+			"type": "cron",
+			"time": "0 0 0-10/1 * * *",
+			"job": {
+				"type": "runjs",
+				"target": "https://raw.githubusercontent.com/akuticlouds/actions-youth/main/YOUTH_READ.js"
+			}
 		}
 	]
 }

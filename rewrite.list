@@ -6,3 +6,16 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean https://raw.githu
 ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 ^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
 ^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+
+# 中青 mitm = *.youth.cn, ios.baertt.com
+
+# 中青获取body
+https:\/\/ios\.baertt\.com\/v5\/article\/complete.json https://raw.githubusercontent.com/songyangzz/QuantumultX/master/zqgetbody.js
+# 中青看点极速版
+https:\/\/\w+\.youth\.cn\/TaskCenter\/(sign|getSign) https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js
+# 中青看点极速版
+https?:\/\/ios\.baertt\.com\/v5\/article\/complete https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js
+# 中青看点极速版
+https:\/\/ios\.baertt\.com\/v5\/article\/red_packet https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js
+# 中青看点极速版
+https:\/\/ios\.baertt\.com\/v5\/user\/app_stay\.json https://raw.githubusercontent.com/akuticlouds/actions-youth/main/youth.js
