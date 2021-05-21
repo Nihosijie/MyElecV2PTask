@@ -1,7 +1,6 @@
 # NobyDa 京东Cookie mitm=api.m.jd.com
 https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
 
-  hostname = wq.jd.com, m.jingxi.com
 
 # 京喜token获取 mitm=wq.jd.com, m.jingxi.com
 ^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
