@@ -1,7 +1,2 @@
-# 获取多账号京东Cookie
-https:\/\/me-api\.jd\.com\/user_new\/info\/GetJDUserInfoUnion https://jdsharedresourcescdn.azureedge.net/jdresource/JD_extra_cookie.js
-
-# 京喜财富岛
-^https\:\/\/wq\.jd\.com\/cubeactive\/farm\/dotask https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-^https\:\/\/m\.jingxi\.com\/dreamfactory\/generator\/CollectCurrentElectricity https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
-^https\:\/\/m\.jingxi\.com\/jxcfd\/consume\/CashOut https://raw.githubusercontent.com/whyour/hundun/master/quanx/jx_tokens.js
+# NobyDa 京东Cookie mitm=api.m.jd.com
+https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js

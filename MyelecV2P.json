@@ -6,21 +6,12 @@
 	"desc": "订阅描述，可省略。该订阅仅可用于 elecV2P, 与其他软件并不兼容。",
 	"list": [
 		{
-			"name": "什么值得买",
+			"name": "京东多合一签到",
 			"type": "cron",
-			"time": "1 0 * * *",
+			"time": "5 0 * * *",
 			"job": {
 				"type": "runjs",
-				"target": "https://ghproxy.com/https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/quanx/smzdm.js"
-			}
-		},
-		{
-			"name": "京喜财富岛提现并发修改版ztxtop",
-			"type": "cron",
-			"time": "0 0 * * *",
-			"job": {
-				"type": "runjs",
-				"target": "https://ghproxy.com/https://raw.githubusercontent.com/ztxtop/x/aa4ddeca813fbf5c231dd4adaec68a7632cb292c/jx_cfdtx.js"
+				"target": "https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js"
 			}
 		}
 	]
