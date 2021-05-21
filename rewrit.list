@@ -1,0 +1,2 @@
+^https://api\.rrad\.tv/v3pl/index/(channel|coice)$ RRad.js
+^https?:\/\/httpbin\.org/get https://raw.githubusercontent.com/elecV2/elecV2P-dei/master/examples/JSTEST/0body.js
