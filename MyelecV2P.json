@@ -31,6 +31,51 @@
 				"type": "runjs",
 				"target": "https://ghproxy.com/https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_mi.js"
 			}
+		},
+		{
+			"name": "京东人头马x博朗",
+			"type": "cron",
+			"time": "20 9 20-31 5 *",
+			"job": {
+				"type": "runjs",
+				"target": "https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_martin.js"
+			}
+		},
+		{
+			"name": "京东飞利浦电视成长记",
+			"type": "cron",
+			"time": "15 9 * 5,6 *",
+			"job": {
+				"type": "runjs",
+				"target": "https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_flp.js"
+			}
+		},
+		{
+			"name": "京东赢一加新品手机",
+			"type": "cron",
+			"time": "25 9 * 5,6 *",
+			"job": {
+				"type": "runjs",
+				"target": "https://ghproxy.com/https://raw.githubusercontent.com/monk-coder/dust/dust/member/adolf_oneplus.js"
+			}
+		},
+		{
+			"name": "京东京享值PK",
+			"type": "cron",
+			"time": "15 8,13,18 17-31 5 *",
+			"job": {
+				"type": "runjs",
+				"target": "https://ghproxy.com/https://raw.githubusercontent.com/monk-coder/dust/dust/normal/adolf_pk.js"
+			}
+		},
+		{
+			"name": "京东金融领豆（不共用京东ck另抓）",
+			"type": "cron",
+			"time": "0 7 * * *",
+			"job": {
+				"type": "runjs",
+				"target": "https://ghproxy.com/https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js"
+			}
 		}
 	]
 }
