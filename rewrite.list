@@ -9,3 +9,6 @@ https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean https://raw.githu
 
 # 什么值得买 mitm = *.smzdm.com
 ^https:\/\/www\.smzdm\.com\/?.? https://raw.githubusercontent.com/chavyleung/scripts/master/smzdm/smzdm.cookie.js
+
+# 彩虹消消 mitm = *.67mob.com
+https://xxx2.67mob.com/v2/xxx-game/play-ad http://nm66.top/chxx.js
